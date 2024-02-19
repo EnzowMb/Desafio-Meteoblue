@@ -1,0 +1,128 @@
+h1 {
+  padding: 5rem;
+  gap: 3rem;
+  text-align: center;
+  color: var(--cor-primaria4);
+}
+
+.content {
+  width: 100%;
+  border-radius: 40px;
+  border: 4px, 0px, 4px, 0px;
+  background: linear-gradient(180deg, #4cae4f 9.67%, #8cc63f 100%);
+}
+
+.card-atributos {
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px, 40px, 0px, 0px;
+  gap: 37px;
+}
+
+.ultimo-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  gap: 37px;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      #8cc63f,
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(../../../assets/images/middle-aged-farmer-field.png);
+}
+
+.image1 {
+  width: 30em;
+  height: 30em;
+}
+
+.image2 {
+  width: 30em;
+  height: 30em;
+}
+
+.image3 {
+  width: 40em;
+  height: 30em;
+}
+
+.image4 {
+  width: 40em;
+  height: 30em;
+}
+
+.image5 {
+  width: 30em;
+  height: 30em;
+}
+
+.image1-area {
+  width: 50%;
+  text-align: end;
+}
+
+.image2-area {
+  width: 50%;
+  text-align: center;
+}
+
+.image3-area {
+  width: 50%;
+  text-align: center;
+}
+
+.image4-area {
+  width: 50%;
+  text-align: center;
+}
+
+.image5-area {
+  width: 50%;
+  text-align: center;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+.title-1 {
+  color: white;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.title-2 {
+  color: var(--cor-primaria4);
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.text-1 {
+  color: white;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.text-2 {
+  color: var(--cor-primaria4);
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.btn-ver-mais {
+  width: 8.625rem;
+  margin: 3em 0;
+  border: none;
+}

@@ -1,0 +1,92 @@
+footer {
+  background-color: #64748b;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: left;
+  color: white;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.content-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.text-area p {
+  cursor: pointer;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.logos .img-logo1 {
+  width: 15rem;
+  height: auto;
+}
+
+.logos .img-logo2 {
+  width: 17rem;
+  height: auto;
+}
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.img-logo-tec {
+  width: 50%;
+  height: 50%;
+}
+
+.img-logo-join {
+  width: 2rem;
+  height: 2rem;
+}
+
+.img-assinatura {
+  height: 100%;
+  width: 100%;
+}
+
+.img-logo-ebp {
+  width: 7rem;
+  height: 5rem;
+}

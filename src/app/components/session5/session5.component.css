@@ -1,0 +1,117 @@
+.content-1 {
+  padding: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.content-2 {
+  padding: 5rem;
+  gap: 3rem;
+  text-align: center;
+  background-color: var(--cor-primaria2);
+}
+
+.content-2 h1 {
+  color: white;
+}
+
+.column {
+  border-radius: 20px;
+  border: 2px solid var(--cor-primaria2);
+  background-color: var(--cor-primaria2);
+  flex: 1;
+}
+
+.column h3 {
+  color: white;
+  padding: 1rem 0 0 0;
+}
+
+.column p {
+  color: white;
+}
+
+.context {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  padding: 1.5rem 2rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.context h1 {
+  color: var(--cor-primaria4);
+  display: inline;
+}
+
+.context h3 {
+  display: inline;
+  color: var(--cor-primaria4);
+}
+
+.context p {
+  color: var(--cor-primaria4);
+}
+
+.margin-button-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-button-top {
+  margin-top: 3rem;
+}
+
+.padding-feature-bottom {
+  margin-bottom: 4.8rem;
+}
+
+.text-1 {
+  padding: 0 0 2rem 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  color: var(--cor-primaria4);
+  font-weight: bold;
+  gap: 5px;
+}
+
+.img-icon {
+  width: 17px;
+  height: 12px;
+}
+
+.list-item {
+  text-align: left;
+  padding: 0 8rem;
+}
+
+.list-item p {
+  display: inline;
+}
+
+.content-2 form .input {
+  border: none;
+  height: 1.5rem;
+  padding: 1rem 3rem 1rem;
+  border-radius: 10px;
+  background-image: url(../../../assets/images/icons/icon-mail.png);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: 1rem, left;
+}
+
+.btn-inscrever-se {
+  background-color: var(--cor-primaria4);
+  margin-left: 1rem;
+}
+
+form {
+  margin-top: 2rem;
+}

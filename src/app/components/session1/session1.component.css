@@ -1,0 +1,38 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 43.75rem;
+  background: linear-gradient(
+    90deg,
+    #4cae4f 22.59%,
+    rgba(63, 81, 179, 0.18) 100%
+  );
+}
+
+.content {
+  max-width: 40%;
+  margin-left: 3rem;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.logo {
+  width: 13.1056rem;
+  height: 3.921875rem;
+  padding: 1em;
+}
+
+.logo-meteoblue {
+  width: 12.19375rem;
+  height: 2.375625rem;
+  padding: 1em;
+  display: inline;
+}

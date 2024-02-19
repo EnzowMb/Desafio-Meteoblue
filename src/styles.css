@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ff-manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.fs-normal {
+  font-size: 1rem;
+}
+
+.fs-small {
+  font-size: 0.875rem;
+}
+
+:root {
+  /* Cores da marca */
+  --cor-primaria1: #8cc63f;
+  --cor-primaria2: #4cae4f;
+  --cor-primaria3: #1e603a;
+  --cor-primaria4: #0a3542;
+  /* --------- */
+  --cor-primaria5: #00a99d;
+  --cor-primaria6: #3f51b3;
+  --cor-primaria7: #194884;
+
+  /* Sucesso */
+  --sucesso1: #e8fcf1;
+  --sucesso2: #a5e1bf;
+  --sucesso3: #419e6a;
+  --sucesso4: #00632b;
+  --sucesso5: #00401c;
+  --sucesso6: #002611;
+
+  /* Atenção */
+  --atencao1: #fff5d5;
+  --atencao2: #ffde81;
+  --atencao3: #efb008;
+  --atencao4: #976400;
+  --atencao5: #724b00;
+  --atencao6: #4d2900;
+
+  /* Erro */
+  --erro1: #ffebeb;
+  --erro2: #fc9595;
+  --erro3: #d83232;
+  --erro4: #b01212;
+  --erro5: #8c0000;
+  --erro6: #660000;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title-header-big {
+  font-weight: bold;
+  font-size: 3.4rem; /* 54px / 16px ≈ 3.375rem */
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.link-text {
+  font-weight: bold;
+  font-size: 1rem;
+  font-style: underline;
+}
+
+.container {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-green-large {
+  width: auto;
+  height: 3.5rem;
+  border: 2px;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  background-color: var(--cor-primaria2);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-green-medium {
+  width: auto;
+  height: 3rem;
+  border: 2px;
+  border-radius: 10px;
+  padding: 1rem 0.75rem 1rem 0.75rem;
+  font-size: 1.125rem;
+  background-color: var(--cor-primaria2);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-green-small {
+  width: auto;
+  height: 2.5rem;
+  border: 2px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  background-color: var(--cor-primaria2);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-border-green-large {
+  width: auto;
+  height: 3.5rem;
+  border: 2px solid var(--cor-primaria2);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.125rem;
+  background-color: white;
+  color: var(--cor-primaria2);
+  cursor: pointer;
+}
+
+.btn-border-green-medium {
+  width: auto;
+  height: 3rem;
+  border: 2px solid var(--cor-primaria2);
+  border-radius: 10px;
+  padding: 1rem 0.75rem 1rem 0.75rem;
+  font-size: 1.125rem;
+  background-color: white;
+  color: var(--cor-primaria2);
+  cursor: pointer;
+}
+
+.btn-border-green-small {
+  width: auto;
+  height: 2.5rem;
+  border: 2px solid var(--cor-primaria2);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  background-color: white;
+  color: var(--cor-primaria2);
+  cursor: pointer;
+}
+
+.btn-transparent-large {
+  width: auto;
+  height: 3.5rem;
+  border: 2px solid var(--cor-primaria1);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.125rem;
+  background-color: rgba(10, 23, 55, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-transparent-medium {
+  width: auto;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1rem 0.75rem 1rem 0.75rem;
+  font-size: 1.125rem;
+  background-color: rgba(10, 23, 55, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-transparent-small {
+  width: auto;
+  height: 2.5rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  background-color: rgba(10, 23, 55, 0.1);
+  color: white;
+  cursor: pointer;
+}

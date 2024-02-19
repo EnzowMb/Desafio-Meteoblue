@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+header.rolagem {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.logo-meteoblue {
+  width: 139px;
+  height: 42px;
+  padding: 1em;
+  margin-left: 2rem;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.link-api {
+  text-decoration: none;
+  color: white;
+}
+
+.final {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn-entrar {
+  color: var(--cor-primaria3);
+  text-decoration: none;
+  margin-right: 1rem;
+}
